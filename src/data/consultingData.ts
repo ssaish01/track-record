@@ -1,5 +1,14 @@
 import { CaseStudy, Pillar, Publication, MatrixItem, MeceNode } from '../types/consulting';
 import heroImg from '../assets/images/hero_executive_advisory_1793434531213.jpg'
+import govaiImg from '../assets/images/casestudy_govai_rag_1793540016960.jpg'
+import zerotrustImg from '../assets/images/casestudy_cyber_zerotrust_1793540019615.jpg'
+import modernImg from '../assets/images/casestudy_gov_modernization_1793435662064.jpg'
+import meshImg from '../assets/images/casestudy_govcloud_mesh_1793540018615.jpg'
+import tcsImg from '../assets/images/casestudy_enterprise_tcs_1793435663716.jpg'
+import devrevImg from '../assets/images/casestudy_devrev_product_1793435663231.jpg'
+import fintechImg from '../assets/images/casestudy_fintech_growth_1793434533308.jpg'
+import logisticsImg from '../assets/images/casestudy_global_logistics_1793434532834.jpg'
+import medImg from '../assets/images/casestudy_medtech_transformation_1793434532913.jpg'
 
 export const HERO_IMAGE = heroImg;
 
@@ -16,7 +25,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: 'Air-Gapped AI',
     heroStatLabel: 'Zero-Egress Knowledge Engine with Source Citations',
     summary: 'Contributed as a data pipeline engineer on an inter-ministerial digital taskforce; helped build on-premise vector indexing and citation verification scripts for central gazettes and statutory administrative manuals, compressing cross-departmental policy research from 14 hours down to seconds with zero network data egress.',
-    image: '/src/assets/images/casestudy_govai_rag_1793540016960.jpg',
+    image: govaiImg,
     context: {
       macroChallenge: 'Policy analysts and administrative officers across ministries were working in disconnected document repositories. When an urgent inter-departmental policy clarification arose regarding public procurement rules or statutory gazette notifications, officers spent over 14 hours manually digging through legacy circulars and contradictory PDF archives to verify precedent.',
       baselineState: 'Decades of central government circulars, statutory orders, and administrative precedents were trapped in unindexed intranet drives and scanned gazette scans, creating delays and validation friction during inter-ministerial coordination.',
@@ -96,7 +105,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: 'Zero Honeypots',
     heroStatLabel: 'Cryptographic Credential Checks Without Raw Data Exposure',
     summary: 'Contributed to the development and testing of a zero-knowledge credential verification prototype (ZK-SNARKs) across departmental testbeds, helping ministries verify statutory clearances and compliance without transmitting raw records.',
-    image: '/src/assets/images/casestudy_cyber_zerotrust_1793540019615.jpg',
+    image: zerotrustImg,
     context: {
       macroChallenge: 'Centralized public registries and citizen databases were attractive targets for unauthorized scraping and security breaches. At the same time, routine credential verifications between the Ministry of Finance, Ministry of Corporate Affairs, and licensing bodies were bogged down in manual document audits, taking nearly a week to complete.',
       baselineState: 'Verifying an institutional subsidy eligibility or statutory corporate compliance required physically sharing raw, sensitive corporate and citizen identity documents across unstandardized departmental channels.',
@@ -176,7 +185,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '<45ms',
     heroStatLabel: 'Sub-Second Data Synchronization Between Ministries',
     summary: 'Contributed to the cross-ministerial integration team connecting 12 federal ministries; assisted in building secure middleware proxy adapters and telemetry streams that enabled real-time data exchange across finance, commerce, and logistics without destabilizing legacy mainframes.',
-    image: '/src/assets/images/casestudy_gov_modernization_1793435662064.jpg',
+    image: modernImg,
     context: {
       macroChallenge: 'Over 20 federal ministries operated on completely different technological generations—ranging from 30-year-old mainframe software to modern SQL clouds. When one department needed data from another, they had to export CSV files, get manual approvals, and wait days.',
       baselineState: 'Fragmented data exchanges riddled with formatting mismatches, slow turnaround times, and zero shared real-time operational visibility.',
@@ -256,7 +265,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '18-Day Horizon',
     heroStatLabel: 'Early Detection of National Commodity Distribution Bottlenecks',
     summary: 'Contributed to building time-series telemetry pipelines and predictive anomaly detection models ingesting 450+ freight and agricultural market feeds, giving inter-ministerial taskforces up to 18 days of early warning on emerging food grain logistics and fertilizer distribution bottlenecks.',
-    image: '/src/assets/images/casestudy_govai_rag_1793540016960.jpg',
+    image: govaiImg,
     context: {
       macroChallenge: 'Essential commodity distribution taskforces were constantly playing catch-up. They relied on lagging monthly reports to spot seasonal crop inventory shortfalls, port freight congestion, and rail wagon allocation delays—meaning leadership only found out about distribution bottlenecks after retail prices had already spiked.',
       baselineState: 'Fragmented logistics data feeds arrived weeks after the fact, leaving consumer affairs and civil supply departments reacting to distribution crises rather than preventing them.',
@@ -336,7 +345,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '<800ms',
     heroStatLabel: 'Automated Service Quarantine and Workload Containment',
     summary: 'Contributed to building automated network micro-segmentation rules and Hardware Security Module (HSM) key rotation scripts for public-facing citizen service portals (GSTN, DigiLocker gateways), containing anomalous traffic in under 800 milliseconds during simulated load and security audits.',
-    image: '/src/assets/images/casestudy_cyber_zerotrust_1793540019615.jpg',
+    image: zerotrustImg,
     context: {
       macroChallenge: 'Public digital infrastructure systems handling tax filings and public services were experiencing high volumes of unauthorized scanning. The existing perimeter firewalls protected external ingress, but once an internal service or third-party vendor connection was compromised, attackers could theoretically move across departmental networks while manual security reviews took hours.',
       baselineState: 'Internal government data center networks operated on an outdated assumption of perimeter trust: once inside the state WAN, applications communicated without continuous identity verification.',
@@ -416,7 +425,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '100% Uptime',
     heroStatLabel: 'Uninterrupted Operations During 30-Day Network Outages',
     summary: 'Contributed to deploying lightweight, offline-first container workloads across 45 remote district magistrate offices and rural service blocks, helping ensure citizen welfare distribution software maintained 100% operational continuity and conflict-free data sync during prolonged telecommunication outages.',
-    image: '/src/assets/images/casestudy_govcloud_mesh_1793540018615.jpg',
+    image: meshImg,
     context: {
       macroChallenge: 'Remote district magistrate headquarters and rural panchayat centers in hilly and coastal regions frequently lost fiber connectivity to central state data centers. When connections failed, local officers could not process welfare disbursements, land record verifications, or ration quota allocations, causing severe citizen hardship.',
       baselineState: 'Heavy reliance on central cloud servers; rural administrative offices were halted during local telecom fiber cuts, forcing officers to revert to manual paper ledgers that took days to re-enter.',
@@ -496,7 +505,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '40 Contracts',
     heroStatLabel: 'Public IT Tenders Audited Across ~$450M Procurement Pipeline',
     summary: 'Contributed as a technical specialist on the National Interoperability Working Group; assisted in analyzing 40 public technology contracts to isolate vendor lock-in risks, and helped draft open-API compliance matrices and technical standards adopted across public IT tenders.',
-    image: '/src/assets/images/casestudy_gov_modernization_1793435662064.jpg',
+    image: modernImg,
     context: {
       macroChallenge: 'Different ministries were independently hiring commercial tech vendors who built closed, proprietary systems. When government departments later needed to share data or switch providers, vendors charged exorbitant fees or claimed ownership over proprietary formats.',
       baselineState: 'Over 60 conflicting departmental procurement policies; public bodies were locked into multi-million dollar annual maintenance contracts with commercial vendors.',
@@ -576,7 +585,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '+32% Velocity',
     heroStatLabel: 'Service Delivery Throughput and SLA Compliance',
     summary: 'Contributed to turning around a client IT delivery pipeline for a Fortune 500 enterprise, helping pinpoint upstream data schema errors and cutting ticket resolution times by 42%.',
-    image: '/src/assets/images/casestudy_enterprise_tcs_1793435663716.jpg',
+    image: tcsImg,
     context: {
       macroChallenge: 'A Tier-1 enterprise client was drowning in unresolved support tickets, experiencing friction between disparate ERP modules, and failing contractual SLAs. The engineering team was exhausted from continuous firefighting.',
       baselineState: 'Manual, disorganized ticket queues with resolution times dragging 38% past contract benchmarks; high recurring maintenance costs and strained client trust.',
@@ -656,7 +665,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     heroStat: '+40% Lift',
     heroStatLabel: 'Core Workflow Completion and Daily User Engagement',
     summary: 'Contributed to streamlining customer support and developer triage workflows, helping replace a confusing 9-click navigation path with a unified split-screen view that lifted feature completion rates by 40%.',
-    image: '/src/assets/images/casestudy_devrev_product_1793435663231.jpg',
+    image: devrevImg,
     context: {
       macroChallenge: 'Customer support agents and software engineers were talking past each other. Linking customer feedback to an active developer ticket required navigating a confusing multi-drawer interface, causing 48% of users to give up halfway through.',
       baselineState: 'Users had to click through up to 9 separate screens and tabs just to connect a customer conversation to an engineering bug, leading to dropped tickets and frustrated enterprise clients.',

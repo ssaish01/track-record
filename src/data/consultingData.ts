@@ -1,6 +1,7 @@
 import { CaseStudy, Pillar, Publication, MatrixItem, MeceNode } from '../types/consulting';
+import heroImg from '../assets/images/hero_executive_advisory_1793434531213.jpg'
 
-export const HERO_IMAGE = '/src/assets/images/hero_executive_advisory_1793434531213.jpg';
+export const HERO_IMAGE = heroImg;
 
 export const CASE_STUDIES: CaseStudy[] = [
   // 1. CabSec - GovAI-RAG Engine

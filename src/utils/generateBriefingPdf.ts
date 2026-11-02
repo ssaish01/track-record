@@ -45,7 +45,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
       },
       {
         title: 'Air-Gapped System Architecture Overview',
-        subtitle: 'Physical isolation, dedicated compute, and zero WAN connectivity',
+        subtitle: 'Physical isolation, dedicated computeandzero WAN connectivity',
         headings: ['Physical Enclave Parameters', 'High-Density Compute Topology', 'Hardware Cryptographic Perimeters'],
         callouts: ['Architecture Rule: No packet leaves physical government servers under any operational condition.']
       },
@@ -57,7 +57,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
       },
       {
         title: 'Localized Quantized Foundation Models',
-        subtitle: 'Evaluating parameter efficiency, quantization, and on-prem inference',
+        subtitle: 'Evaluating parameter efficiency, quantizationandon-prem inference',
         headings: ['Open-Weights Model Selection', 'INT4 / INT8 Quantization Trade-offs', 'Inference Throughput Benchmarks'],
         callouts: ['Benchmark: Sub-3.2s query latency sustained on isolated GPU clusters for 100k+ statutory documents.']
       },
@@ -87,7 +87,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
       },
       {
         title: 'Adversarial Stress Testing & Security Audits',
-        subtitle: 'Simulating prompt injection, data extraction, and unauthorized access vectors',
+        subtitle: 'Simulating prompt injection, data extractionandunauthorized access vectors',
         headings: ['Adversarial Prompt Mitigation', 'Side-Channel Protection Protocols', 'Model Weight Tamper-Proofing'],
         callouts: ['Audit Result: Zero successful data extraction attempts during comprehensive security stress testing.']
       },
@@ -117,13 +117,13 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
       },
       {
         title: 'Appendix A: System Specifications & Benchmarks',
-        subtitle: 'Hardware configurations, vector indexing algorithms, and latency curves',
+        subtitle: 'Hardware configurations, vector indexing algorithmsandlatency curves',
         headings: ['Cluster Hardware Topology', 'HNSW Vector Indexing Parameters', 'Load & Stress Test Profiles'],
         callouts: ['Technical Standard: Deployed across redundant Tier-4 sovereign server clusters with automated failover.']
       },
       {
         title: 'Appendix B: References, Citations & Author Bio',
-        subtitle: 'Academic literature, legislative frameworks, and advisory coordinates',
+        subtitle: 'Academic literature, legislative frameworksandadvisory coordinates',
         headings: ['Statutory Citations', 'Peer-Reviewed Bibliography', 'Author & Practice Leadership'],
         callouts: ['Author: Aishwarya Sriram Srinivasachary · Strategic Technology Advisor & Operational Transformation Specialist.']
       }
@@ -142,7 +142,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
           {
             heading: t.headings[0],
             body: [
-              `In high-stakes public sector governance, administrative information asymmetry creates severe operational friction. Section ${p}.1 addresses how statutory gazettes, procurement policies, and inter-ministry administrative archives must be structured to ensure immediate, dependable retrieval under complex regulatory conditions.`,
+              `In high-stakes public sector governance, administrative information asymmetry creates severe operational friction. Section ${p}.1 addresses how statutory gazettes, procurement policiesandinter-ministry administrative archives must be structured to ensure immediate, dependable retrieval under complex regulatory conditions.`,
               `By establishing formal mathematical boundaries around document chunking and vector storage, the system ensures that every extracted fact maintains complete cryptographic lineage back to its source document.`
             ],
             bulletPoints: [
@@ -175,7 +175,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
           {
             heading: `Inter-Agency Modernization Directive §${p}.1`,
             body: [
-              'Digital transformation in the public sector rarely stalls due to computing power limitations. Instead, institutional inertia, divergent procurement cycles, and contested data ownership represent the true points of friction.',
+              'Digital transformation in the public sector rarely stalls due to computing power limitations. Instead, institutional inertia, divergent procurement cyclesandcontested data ownership represent the true points of friction.',
               'By establishing objective, shared data schemas and open API mandates, federal bodies can achieve cross-ministerial synchronization without replacing core legacy mainframes prematurely.'
             ],
             bulletPoints: [
@@ -191,7 +191,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
             ],
             calloutBox: {
               title: 'Institutional Principle',
-              content: 'Sovereign technological independence is achieved when public bodies own their data schemas, cryptographic keys, and migration paths.'
+              content: 'Sovereign technological independence is achieved when public bodies own their data schemas, cryptographic keysandmigration paths.'
             }
           }
         ]
@@ -209,7 +209,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
             heading: `Cryptographic Architecture & Proof Circuits §${p}.1`,
             body: [
               'Monolithic centralized credential databases have become major liability centers for data leaks and regulatory non-compliance. Every centralized citizen repository represents a concentrated point of vulnerability.',
-              'Non-interactive zero-knowledge proofs (ZK-SNARKs) solve this dilemma by enabling agencies to verify statutory compliance, tax status, and citizen eligibility mathematically—without exchanging or storing raw personal data.'
+              'Non-interactive zero-knowledge proofs (ZK-SNARKs) solve this dilemma by enabling agencies to verify statutory compliance, tax statusandcitizen eligibility mathematically—without exchanging or storing raw personal data.'
             ],
             bulletPoints: [
               'Sub-180ms verification generation on standard office computing hardware.',
@@ -236,7 +236,7 @@ function getPublicationContent(pub: Publication): PageContentItem[] {
       items.push({
         pageNumber: p,
         chapterTitle: `IT Delivery Restructuring & Operational Throughput · Part ${p - 1}`,
-        chapterSubtitle: 'Deconstructing workflow bottlenecks, eliminating schema errors, and stabilizing SLAs',
+        chapterSubtitle: 'Deconstructing workflow bottlenecks, eliminating schema errorsandstabilizing SLAs',
         sections: [
           {
             heading: `Root-Cause Incident Triage & Defect Pareto Modeling §${p}.1`,

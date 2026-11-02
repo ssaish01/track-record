@@ -13,21 +13,21 @@ export const CredentialsSection: React.FC<CredentialsSectionProps> = ({ onOpenCv
       name: 'Technical Taskforce Lead',
       role: 'Sovereign Systems & Modernization',
       org: 'Cabinet Secretariat Technical Cell',
-      quote: 'Aishwarya brought rigorous problem-solving, calm execution under pressure, and genuine engineering discipline to our inter-ministerial e-governance modernization programs. Her work on vector retrieval and zero-knowledge prototypes set a clear operational standard for the team.',
+      quote: 'Aishwarya brought rigorous problem-solving, calm execution under pressureandgenuine engineering discipline to our inter-ministerial e-governance modernization programs. Her work on vector retrieval and zero-knowledge prototypes set a clear operational standard for the team.',
       outcome: 'Core Technical Contributor · 7 Sovereign Initiatives'
     },
     {
       name: 'Enterprise Delivery Lead',
       role: 'Digital Transformation Team',
       org: 'Tata Consultancy Services (TCS)',
-      quote: 'When our client delivery pipeline was burning through hours and missing SLAs, Aishwarya rolled up her sleeves, traced the errors back to their source, and fixed the underlying system. She took our team from constant panic to steady, confident delivery.',
+      quote: 'When our client delivery pipeline was burning through hours and missing SLAs, Aishwarya rolled up her sleeves, traced the errors back to their sourceandfixed the underlying system. She took our team from constant panic to steady, confident delivery.',
       outcome: '+32% Sprint Velocity · 99.2% Contract SLA Compliance'
     },
     {
       name: 'Product Engineering Leadership',
       role: 'Design & Customer Experience',
       org: 'DevRev Cloud Platform Team',
-      quote: 'Aishwarya doesn’t just design interfaces—she understands how people think under pressure. Her redesign turned one of our most frustrating, click-heavy workflows into something smooth, fast, and natural.',
+      quote: 'Aishwarya doesn’t just design interfaces—she understands how people think under pressure. Her redesign turned one of our most frustrating, click-heavy workflows into something smooth, fastandnatural.',
       outcome: '-55% Click Depth · +40% Workflow Completion Rate'
     }
   ];
@@ -44,7 +44,7 @@ export const CredentialsSection: React.FC<CredentialsSectionProps> = ({ onOpenCv
               <span className="text-zinc-400">Institutional & Enterprise Pedigree</span>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight [text-wrap:balance]">
-              Cross-disciplinary excellence across governance, enterprise IT, and product design.
+              Cross-disciplinary excellence across governance, enterprise ITandproduct design.
             </h2>
           </div>
 

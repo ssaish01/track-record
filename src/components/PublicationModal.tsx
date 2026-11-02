@@ -275,7 +275,7 @@ export const PublicationModal: React.FC<PublicationModalProps> = ({ pub, onClose
                   {/* Body Paragraphs */}
                   <div className="space-y-4 text-xs sm:text-sm text-zinc-300 leading-relaxed font-normal">
                     <p>
-                      In high-stakes public sector digital transformations, information asymmetry and administrative boundaries represent the true points of friction. Section {currentPage}.1 addresses how statutory gazettes, procurement policies, and inter-ministry administrative archives must be structured to ensure immediate, dependable retrieval under complex regulatory conditions.
+                      In high-stakes public sector digital transformations, information asymmetry and administrative boundaries represent the true points of friction. Section {currentPage}.1 addresses how statutory gazettes, procurement policiesandinter-ministry administrative archives must be structured to ensure immediate, dependable retrieval under complex regulatory conditions.
                     </p>
                     <p>
                       By establishing formal mathematical boundaries around document chunking and vector storage, the system ensures that every extracted fact maintains complete cryptographic lineage back to its source document, eliminating black-box generation risk.

@@ -22,7 +22,7 @@ export const PillarsSection: React.FC = () => {
             Core advisory capabilities built across sovereign government and enterprise frontiers.
           </h2>
           <p className="text-base text-zinc-400 leading-relaxed font-normal">
-            Moving beyond abstract slides. I partner directly with institutional leaders and engineering teams to untangle operational gridlock, harden mission-critical architectures, and make complex enterprise workflows fast and dependable.
+            Moving beyond abstract slides. I partner directly with institutional leaders and engineering teams to untangle operational gridlock, harden mission-critical architecturesandmake complex enterprise workflows fast and dependable.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export const PillarsSection: React.FC = () => {
               <div>
                 <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-4">
                   <Layers className="w-3.5 h-3.5 text-sky-400" />
-                  <span>Board Deliverables</span>
+                  <span>Core Deliverables</span>
                 </div>
                 <ul className="space-y-2.5">
                   {activePillar.deliverables.map((item, idx) => (
@@ -126,7 +126,7 @@ export const PillarsSection: React.FC = () => {
 
             {/* Bottom summary bar inside card */}
             <div className="pt-5 border-t border-white/[0.06] flex items-center justify-between text-xs text-zinc-400">
-              <span>Standard Engagement Cadence: 8–16 Weeks</span>
+              <span>Typical Project Scope: 4–6 Month Taskforce Deployments</span>
               <a
                 href="#engagements"
                 className="text-sky-400 hover:text-sky-300 font-medium inline-flex items-center gap-1"

@@ -36,7 +36,7 @@ export const EngagementsSection: React.FC = () => {
             </h2>
           </div>
           <p className="text-sm text-zinc-400 max-w-sm">
-            Track record spanning 7 inter-ministerial modernization workstreams at the Cabinet Secretariat, global enterprise IT consulting at TCS, and developer experience optimization at DevRev Cloud.
+            Track record spanning 7 inter-ministerial modernization workstreams at the Cabinet Secretariat, global enterprise IT consulting at TCSanddeveloper experience optimization at DevRev Cloud.
           </p>
         </div>
 

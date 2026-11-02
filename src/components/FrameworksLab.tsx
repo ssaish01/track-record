@@ -243,7 +243,7 @@ export const FrameworksLab: React.FC = () => {
                     Actionable Playbook:
                   </div>
                   <span>
-                    Isolate the root cause workflow gate, standardize data schemas across participating teams, and enforce automated validation rules to prevent recurring friction.
+                    Isolate the root cause workflow gate, standardize data schemas across participating teamsandenforce automated validation rules to prevent recurring friction.
                   </span>
                 </div>
               </div>
@@ -587,7 +587,7 @@ export const FrameworksLab: React.FC = () => {
                 </div>
 
                 <p className="text-[11px] text-zinc-500 leading-normal">
-                  *Preliminary estimation model. Actual synergy capture depends on baseline spend visibility, supplier concentration, and organizational governance speed.
+                  *Preliminary estimation model. Actual synergy capture depends on baseline spend visibility, supplier concentrationandorganizational governance speed.
                 </p>
               </div>
             </div>

@@ -91,7 +91,7 @@ export const ThoughtLeadershipSection: React.FC = () => {
               {/* Action */}
               <div className="pt-4 border-t border-white/[0.06] flex items-center justify-between">
                 <span className="text-xs text-zinc-400 font-mono">
-                  {pub.pages} Pages · Verified PDF
+                  {pub.pages} Pages · Notes
                 </span>
                 <button
                   onClick={() => setActivePublication(pub)}

@@ -28,7 +28,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     image: govaiImg,
     context: {
       macroChallenge: 'Policy analysts and administrative officers across ministries were working in disconnected document repositories. When an urgent inter-departmental policy clarification arose regarding public procurement rules or statutory gazette notifications, officers spent over 14 hours manually digging through legacy circulars and contradictory PDF archives to verify precedent.',
-      baselineState: 'Decades of central government circulars, statutory orders, and administrative precedents were trapped in unindexed intranet drives and scanned gazette scans, creating delays and validation friction during inter-ministerial coordination.',
+      baselineState: 'Decades of central government circulars, statutory ordersandadministrative precedents were trapped in unindexed intranet drives and scanned gazette scans, creating delays and validation friction during inter-ministerial coordination.',
       stakeholders: ['Ministry of Electronics & IT (MeitY)', 'Department of Administrative Reforms (DARPG)', 'National Informatics Centre (NIC)', 'Cabinet Secretariat Coordination Wing']
     },
     hypothesis: {
@@ -107,7 +107,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     summary: 'Contributed to the development and testing of a zero-knowledge credential verification prototype (ZK-SNARKs) across departmental testbeds, helping ministries verify statutory clearances and compliance without transmitting raw records.',
     image: zerotrustImg,
     context: {
-      macroChallenge: 'Centralized public registries and citizen databases were attractive targets for unauthorized scraping and security breaches. At the same time, routine credential verifications between the Ministry of Finance, Ministry of Corporate Affairs, and licensing bodies were bogged down in manual document audits, taking nearly a week to complete.',
+      macroChallenge: 'Centralized public registries and citizen databases were attractive targets for unauthorized scraping and security breaches. At the same time, routine credential verifications between the Ministry of Finance, Ministry of Corporate Affairsandlicensing bodies were bogged down in manual document audits, taking nearly a week to complete.',
       baselineState: 'Verifying an institutional subsidy eligibility or statutory corporate compliance required physically sharing raw, sensitive corporate and citizen identity documents across unstandardized departmental channels.',
       stakeholders: ['Ministry of Corporate Affairs (MCA)', 'Department of Revenue (Ministry of Finance)', 'National Informatics Centre (NIC)', 'Inter-Ministerial Compliance Board']
     },
@@ -117,7 +117,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       diagnosticFindings: [
         'Centralized credential stores faced high security overhead and audit liabilities when holding unnecessary citizen records.',
         'Routine cross-departmental compliance checks dragged on for 3 to 7 days due to manual paperwork exchanges.',
-        'Over-sharing of personal data created major compliance, privacy, and data-protection risks under modern statutory privacy mandates.'
+        'Over-sharing of personal data created major compliance, privacyanddata-protection risks under modern statutory privacy mandates.'
       ]
     },
     execution: {
@@ -184,11 +184,11 @@ export const CASE_STUDIES: CaseStudy[] = [
     timeframe: '5 Months',
     heroStat: '<45ms',
     heroStatLabel: 'Sub-Second Data Synchronization Between Ministries',
-    summary: 'Contributed to the cross-ministerial integration team connecting 12 federal ministries; assisted in building secure middleware proxy adapters and telemetry streams that enabled real-time data exchange across finance, commerce, and logistics without destabilizing legacy mainframes.',
+    summary: 'Contributed to the cross-ministerial integration team connecting 12 federal ministries; assisted in building secure middleware proxy adapters and telemetry streams that enabled real-time data exchange across finance, commerceandlogistics without destabilizing legacy mainframes.',
     image: modernImg,
     context: {
-      macroChallenge: 'Over 20 federal ministries operated on completely different technological generations—ranging from 30-year-old mainframe software to modern SQL clouds. When one department needed data from another, they had to export CSV files, get manual approvals, and wait days.',
-      baselineState: 'Fragmented data exchanges riddled with formatting mismatches, slow turnaround times, and zero shared real-time operational visibility.',
+      macroChallenge: 'Over 20 federal ministries operated on completely different technological generations—ranging from 30-year-old mainframe software to modern SQL clouds. When one department needed data from another, they had to export CSV files, get manual approvalsandwait days.',
+      baselineState: 'Fragmented data exchanges riddled with formatting mismatches, slow turnaround timesandzero shared real-time operational visibility.',
       stakeholders: ['Ministry of Finance (PFMS & GSTN)', 'Ministry of Commerce & Industry (DPIIT)', 'National Informatics Centre (NIC)', 'Federal IT Steering Council']
     },
     hypothesis: {
@@ -207,7 +207,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           title: 'Legacy Interface Mapping & Adapter Design',
           timeline: 'Weeks 1–6',
           initiatives: [
-            'Assisted in auditing legacy data interfaces across finance, commerce, logistics, and corporate affairs.',
+            'Assisted in auditing legacy data interfaces across finance, commerce, logisticsandcorporate affairs.',
             'Helped build proxy adapters that translate legacy mainframe output into modern, clean JSON/REST data on the fly.'
           ]
         },
@@ -226,7 +226,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           timeline: 'Weeks 15–20',
           initiatives: [
             'Supported the rollout and live connection of 12 flagship ministries to the shared grid with zero operational downtime.',
-            'Helped configure monitoring dashboards tracking system health, bandwidth, and error rates across participating agencies.'
+            'Helped configure monitoring dashboards tracking system health, bandwidthanderror rates across participating agencies.'
           ]
         }
       ]
@@ -267,12 +267,12 @@ export const CASE_STUDIES: CaseStudy[] = [
     summary: 'Contributed to building time-series telemetry pipelines and predictive anomaly detection models ingesting 450+ freight and agricultural market feeds, giving inter-ministerial taskforces up to 18 days of early warning on emerging food grain logistics and fertilizer distribution bottlenecks.',
     image: govaiImg,
     context: {
-      macroChallenge: 'Essential commodity distribution taskforces were constantly playing catch-up. They relied on lagging monthly reports to spot seasonal crop inventory shortfalls, port freight congestion, and rail wagon allocation delays—meaning leadership only found out about distribution bottlenecks after retail prices had already spiked.',
+      macroChallenge: 'Essential commodity distribution taskforces were constantly playing catch-up. They relied on lagging monthly reports to spot seasonal crop inventory shortfalls, port freight congestionandrail wagon allocation delays—meaning leadership only found out about distribution bottlenecks after retail prices had already spiked.',
       baselineState: 'Fragmented logistics data feeds arrived weeks after the fact, leaving consumer affairs and civil supply departments reacting to distribution crises rather than preventing them.',
       stakeholders: ['Ministry of Consumer Affairs, Food & Public Distribution', 'Ministry of Agriculture & Farmers Welfare', 'Ministry of Railways (Freight Operations)', 'Inter-Ministerial Monitoring Committee']
     },
     hypothesis: {
-      coreHypothesis: 'Continuously correlating railway freight rake movements, wholesale market (mandi) arrivals, port container dwell times, and seasonal crop yields into a unified time-series model helps flag distribution bottlenecks 2 to 3 weeks before regional shortages occur.',
+      coreHypothesis: 'Continuously correlating railway freight rake movements, wholesale market (mandi) arrivals, port container dwell timesandseasonal crop yields into a unified time-series model helps flag distribution bottlenecks 2 to 3 weeks before regional shortages occur.',
       frameworkUsed: 'Predictive Telemetry Modeling & RICE-Prioritized Risk Matrix',
       diagnosticFindings: [
         'Early indicators of regional supply shortages were present in freight telemetry 14 to 18 days in advance, but buried under fragmented departmental spreadsheets.',
@@ -287,7 +287,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           title: 'Logistics Telemetry Pipeline & Signal Filtering',
           timeline: 'Weeks 1–8',
           initiatives: [
-            'Assisted in building streaming data connectors ingesting continuous data feeds across railway freight, port container traffic, and wholesale agricultural mandis.',
+            'Assisted in building streaming data connectors ingesting continuous data feeds across railway freight, port container trafficandwholesale agricultural mandis.',
             'Helped apply automated signal filtering to strip out baseline noise and highlight genuine distribution anomalies.'
           ]
         },
@@ -296,7 +296,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           title: 'Predictive Machine Learning Models',
           timeline: 'Weeks 9–16',
           initiatives: [
-            'Helped train and evaluate predictive time-series models tracking seasonal crop harvesting, monsoon transport patterns, and cyclical demand divergences.',
+            'Helped train and evaluate predictive time-series models tracking seasonal crop harvesting, monsoon transport patternsandcyclical demand divergences.',
             'Assisted inter-ministerial logistics coordinators in tuning model sensitivity to minimize false alerts.'
           ]
         },
@@ -315,7 +315,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       primaryKpis: [
         { metric: '18 Days', label: 'Early Warning Head-Start', context: 'Surfaces emerging regional commodity shortages and freight bottlenecks in advance' },
         { metric: '94.2%', label: 'Forecast Accuracy', context: 'High precision validated against historical seasonal crop disruption datasets' },
-        { metric: '450+', label: 'Automated Feeds', context: 'Continuous monitoring across freight corridors, mandis, and central granaries' },
+        { metric: '450+', label: 'Automated Feeds', context: 'Continuous monitoring across freight corridors, mandisandcentral granaries' },
         { metric: 'Objective', label: 'Allocation Standard', context: 'Replaced subjective debates with data-driven freight scheduling' }
       ],
       waterfallDrivers: [
@@ -352,7 +352,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       stakeholders: ['Indian Computer Emergency Response Team (CERT-In)', 'National Informatics Centre (NIC)', 'Ministry of Electronics & IT (MeitY)', 'Public Digital Infrastructure Working Group']
     },
     hypothesis: {
-      coreHypothesis: 'Isolating each e-governance service into a micro-segmented container enclave, requiring cryptographic proof for every inter-service database request, and automating incident response helps quarantine compromised workloads in under a second.',
+      coreHypothesis: 'Isolating each e-governance service into a micro-segmented container enclave, requiring cryptographic proof for every inter-service database requestandautomating incident response helps quarantine compromised workloads in under a second.',
       frameworkUsed: 'Continuous Compliance Auditing & Automated Playbook Orchestration',
       diagnosticFindings: [
         'Over 85% of internal server-to-server calls between public web portals and database tiers lacked continuous cryptographic verification.',
@@ -504,7 +504,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     timeframe: '4 Months',
     heroStat: '40 Contracts',
     heroStatLabel: 'Public IT Tenders Audited Across ~$450M Procurement Pipeline',
-    summary: 'Contributed as a technical specialist on the National Interoperability Working Group; assisted in analyzing 40 public technology contracts to isolate vendor lock-in risks, and helped draft open-API compliance matrices and technical standards adopted across public IT tenders.',
+    summary: 'Contributed as a technical specialist on the National Interoperability Working Group; assisted in analyzing 40 public technology contracts to isolate vendor lock-in risksandhelped draft open-API compliance matrices and technical standards adopted across public IT tenders.',
     image: modernImg,
     context: {
       macroChallenge: 'Different ministries were independently hiring commercial tech vendors who built closed, proprietary systems. When government departments later needed to share data or switch providers, vendors charged exorbitant fees or claimed ownership over proprietary formats.',
@@ -512,7 +512,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       stakeholders: ['Cabinet Committee on Economic Affairs', 'Ministry of Electronics & IT (MeitY)', 'Department of Expenditure (Ministry of Finance)', 'Government e-Marketplace (GeM) Steering Committee']
     },
     hypothesis: {
-      coreHypothesis: 'Establishing objective technical standards requiring open data schemas, sovereign cryptographic key custody, and standard API export hooks in public procurement helps government bodies eliminate predatory vendor lock-in and avoid substantial lifecycle costs.',
+      coreHypothesis: 'Establishing objective technical standards requiring open data schemas, sovereign cryptographic key custodyandstandard API export hooks in public procurement helps government bodies eliminate predatory vendor lock-in and avoid substantial lifecycle costs.',
       frameworkUsed: 'Technical Policy Evaluation & Open Standards Framework',
       diagnosticFindings: [
         'Proprietary vendor lock-in added a 35% surcharge to ongoing maintenance and feature upgrades.',
@@ -536,7 +536,7 @@ export const CASE_STUDIES: CaseStudy[] = [
           title: 'Open API Standards & Interoperability Rubric',
           timeline: 'Weeks 7–14',
           initiatives: [
-            'Helped draft technical evaluation rubrics, schema validation criteria, and open-API requirements for public tenders.',
+            'Helped draft technical evaluation rubrics, schema validation criteriaandopen-API requirements for public tenders.',
             'Assisted in drafting model contractual language requiring open data schema export and government custody of cryptographic keys.'
           ]
         },
@@ -554,7 +554,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     impact: {
       primaryKpis: [
         { metric: '40 Tenders', label: 'Procurement Contracts Audited', context: 'Identified proprietary lock-in risks across ~$450M in projected 5-year public IT tenders' },
-        { metric: '100%', label: 'Sovereign Data Ownership', context: 'Guaranteed government custody over all data schemas, models, and cryptographic keys' },
+        { metric: '100%', label: 'Sovereign Data Ownership', context: 'Guaranteed government custody over all data schemas, modelsandcryptographic keys' },
         { metric: 'Binding', label: 'National Standard', context: 'Officially adopted across all federal procurement guidelines and technology tenders' },
         { metric: 'Unanimous', label: 'Inter-Agency Adoption', context: 'Achieved full consensus across federal ministries without political friction' }
       ],
@@ -587,7 +587,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     summary: 'Contributed to turning around a client IT delivery pipeline for a Fortune 500 enterprise, helping pinpoint upstream data schema errors and cutting ticket resolution times by 42%.',
     image: tcsImg,
     context: {
-      macroChallenge: 'A Tier-1 enterprise client was drowning in unresolved support tickets, experiencing friction between disparate ERP modules, and failing contractual SLAs. The engineering team was exhausted from continuous firefighting.',
+      macroChallenge: 'A Tier-1 enterprise client was drowning in unresolved support tickets, experiencing friction between disparate ERP modulesandfailing contractual SLAs. The engineering team was exhausted from continuous firefighting.',
       baselineState: 'Manual, disorganized ticket queues with resolution times dragging 38% past contract benchmarks; high recurring maintenance costs and strained client trust.',
       stakeholders: ['Client IT Operations Director', 'TCS Global Delivery Lead', 'Enterprise Solutions Architect', 'Cross-Functional Engineering Pods']
     },
@@ -646,7 +646,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       ]
     },
     quote: {
-      text: 'When our client delivery pipeline was burning through hours and missing SLAs, Aishwarya rolled up her sleeves, traced the errors back to their source, and fixed the underlying system. She took our team from constant panic to steady, confident delivery.',
+      text: 'When our client delivery pipeline was burning through hours and missing SLAs, Aishwarya rolled up her sleeves, traced the errors back to their sourceandfixed the underlying system. She took our team from constant panic to steady, confident delivery.',
       author: 'R. K. Narayanan',
       role: 'Enterprise Delivery Lead',
       company: 'Tata Consultancy Services'
@@ -726,7 +726,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       ]
     },
     quote: {
-      text: 'Aishwarya doesn’t just design interfaces—she understands how people think under pressure. Her redesign turned one of our most frustrating, click-heavy workflows into something smooth, fast, and natural.',
+      text: 'Aishwarya doesn’t just design interfaces—she understands how people think under pressure. Her redesign turned one of our most frustrating, click-heavy workflows into something smooth, fastandnatural.',
       author: 'Design & Product Leadership',
       role: 'Product Engineering Lead',
       company: 'DevRev Cloud Cloud Private Limited'
@@ -740,7 +740,7 @@ export const PILLARS: Pillar[] = [
     number: '01',
     title: 'Sovereign Digital Strategy & Public Sector Governance',
     tagline: 'Translating complex government mandates into clear, resilient execution roadmaps.',
-    description: 'We help public sector leadership break through bureaucratic silos, establish secure data standards, and deliver modernization programs that earn institutional trust and deliver real public value.',
+    description: 'Partnering with public sector leadership to break through bureaucratic silos, establish secure data standardsanddeliver modernization programs that earn institutional trust.',
     coreLevers: [
       'Multi-Agency Stakeholder Alignment & Mandate Scoping',
       'Strategic Technology Policy & Regulatory Safeguards',
@@ -759,7 +759,7 @@ export const PILLARS: Pillar[] = [
     number: '02',
     title: 'Sovereign AI & Air-Gapped Knowledge Architecture',
     tagline: 'Bringing the power of modern LLMs into secure public sector and administrative environments.',
-    description: 'We build self-contained, air-gapped AI systems that give public administrators instant answers with verifiable statutory citations—operating completely on-premise with zero risk of external data leakage or hallucinations.',
+    description: 'Architecting self-contained, air-gapped AI systems that give public administrators instant answers with verifiable statutory citations—operating completely on-premise with zero risk of external data leakage or hallucinations.',
     coreLevers: [
       'Air-Gapped Vector Database Indexing & Partitioning',
       'Hallucination-Resistant Semantic Search & Citation Provenance',
@@ -778,7 +778,7 @@ export const PILLARS: Pillar[] = [
     number: '03',
     title: 'Zero-Trust Cybersecurity & Cryptographic Architecture',
     tagline: 'Engineering security architectures designed for real-world public systems, not theoretical checklists.',
-    description: 'We replace vulnerable centralized databases with zero-knowledge verification, automate cryptographic key rotation, and deploy sub-second incident containment playbooks that isolate anomalies before damage occurs.',
+    description: 'Replacing vulnerable centralized databases with zero-knowledge verification, automating cryptographic key rotationanddeploying sub-second incident containment playbooks that isolate anomalies before damage occurs.',
     coreLevers: [
       'Zero-Knowledge Proof (ZK-SNARK) Verification Circuit Design',
       'Dynamic Software-Defined Micro-Segmentation',
@@ -797,7 +797,7 @@ export const PILLARS: Pillar[] = [
     number: '04',
     title: 'Enterprise Technology Consulting & Operational Restructuring',
     tagline: 'Finding the hidden bottlenecks in complex IT delivery and ending the firefighting.',
-    description: 'We audit workflows, eliminate repetitive handoff friction, and standardize operating procedures so global engineering teams can get out of constant panic and deliver projects on time.',
+    description: 'Auditing workflows, eliminating repetitive handoff frictionandstandardizing operating procedures to help global engineering teams overcome operational bottlenecks and deliver projects on time.',
     coreLevers: [
       'Workflow Bottleneck Isolation & Defect Pareto Modeling',
       'Direct & Indirect IT Service Delivery Streamlining',
@@ -816,7 +816,7 @@ export const PILLARS: Pillar[] = [
     number: '05',
     title: 'Digital Product Experience & Process Optimization',
     tagline: 'Making enterprise software an intuitive, high-velocity experience.',
-    description: 'We map how people actually work, strip away unnecessary clicks, and build interfaces that bring clarity to daily tasks—turning complex, frustrating software into high-adoption workflows.',
+    description: 'We map how people actually work, strip away unnecessary clicksandbuild interfaces that bring clarity to daily tasks—turning complex, frustrating software into high-adoption workflows.',
     coreLevers: [
       'End-to-End Customer Journey & Workflow Mapping',
       'Cognitive Friction Diagnostics & Mental Model Alignment',
@@ -853,7 +853,7 @@ export const PUBLICATIONS: Publication[] = [
     category: 'Strategy',
     year: '2026',
     readTime: '10 min read',
-    abstract: 'Lessons from modernizing technology across federal ministries. Why digital transformation usually stalls at administrative handoffs rather than tech limitations, and how to build inter-agency consensus.',
+    abstract: 'Lessons from modernizing technology across federal ministries. Why digital transformation usually stalls at administrative handoffs rather than tech limitationsandhow to build inter-agency consensus.',
     takeaways: [
       'Public sector modernization projects fail most often at administrative boundaries where data ownership is disputed.',
       'Establishing shared data schemas and open APIs cuts project cycle times by more than half.',
@@ -867,7 +867,7 @@ export const PUBLICATIONS: Publication[] = [
     category: 'Private Equity',
     year: '2025',
     readTime: '9 min read',
-    abstract: 'A blueprint for using zero-knowledge proofs (ZKPs) in public administration. How ministries can verify corporate compliance, tax status, and citizen eligibility without aggregating or storing sensitive personal data in vulnerable databases.',
+    abstract: 'A blueprint for using zero-knowledge proofs (ZKPs) in public administration. How ministries can verify corporate compliance, tax statusandcitizen eligibility without aggregating or storing sensitive personal data in vulnerable databases.',
     takeaways: [
       'Monolithic centralized citizen identity databases represent severe data breach liabilities for public bodies.',
       'Non-interactive ZK-proofs allow sub-200ms validation on regular, everyday computers.',
@@ -881,7 +881,7 @@ export const PUBLICATIONS: Publication[] = [
     category: 'Operations',
     year: '2025',
     readTime: '8 min read',
-    abstract: 'A straightforward guide for enterprise engineering leads on how to diagnose recurring ticket backlogs, automate clunky handoffs, and get delivery teams back to green SLA health.',
+    abstract: 'A straightforward guide for enterprise engineering leads on how to diagnose recurring ticket backlogs, automate clunky handoffsandget delivery teams back to green SLA health.',
     takeaways: [
       'Over 60% of recurring maintenance tickets trace back to preventable data formatting mismatches between systems.',
       'Automating intermediate validation checks resolves issues quickly and restores client confidence.',
@@ -960,7 +960,7 @@ export const MECE_ROOT: MeceNode = {
   value: 'Cross-Agency & Enterprise Bottlenecks',
   benchmark: 'Target: Real-Time Modern Architecture',
   status: 'critical',
-  insight: 'Diagnosing where operational friction actually happens: statutory retrieval delays, fragmented mainframe APIs, public logistics bottlenecks, and IT delivery backlogs.',
+  insight: 'Diagnosing where operational friction actually happens: statutory retrieval delays, fragmented mainframe APIs, public logistics bottlenecksandIT delivery backlogs.',
   children: [
     {
       id: 'inst',
@@ -968,7 +968,7 @@ export const MECE_ROOT: MeceNode = {
       value: '7 Sovereign Strategic Initiatives',
       benchmark: 'Target: Real-Time Air-Gapped Interoperability',
       status: 'critical',
-      insight: 'Untangling bureaucratic silos across administrative knowledge retrieval, zero-knowledge verification, and remote district edge continuity.',
+      insight: 'Untangling bureaucratic silos across administrative knowledge retrieval, zero-knowledge verificationandremote district edge continuity.',
       children: [
         {
           id: 'inst-ai',
@@ -1044,33 +1044,33 @@ export const CAREER_CREDENTIALS = {
       organization: 'Cabinet Secretariat, Government of India',
       period: '3 Years (Nov 2023 – Nov 2026)',
       location: 'New Delhi & Regional District Hubs',
-      summary: 'Contributed to 7 high-impact sovereign digital transformation programs across MeitY, Ministry of Finance, and Cabinet Secretariat spanning e-governance RAG knowledge engines, zero-knowledge credential ledgers, national API gateways, commodity supply chain telemetry, and apex digital policy frameworks.'
+      summary: 'Contributed to 7 high-impact sovereign digital transformation programs across MeitY, Ministry of FinanceandCabinet Secretariat spanning e-governance RAG knowledge engines, zero-knowledge credential ledgers, national API gateways, commodity supply chain telemetryandapex digital policy frameworks.'
     },
     {
       role: 'Systems Engineer',
       organization: 'Tata Consultancy Services (TCS)',
       period: '6 Months',
       location: 'Enterprise Technology Practice',
-      summary: 'Specialized in enterprise technology consulting, IT operational restructuring, and client delivery. Analyzed complex client workflows, diagnosed delivery bottlenecks, and engineered custom technology solutions to improve operational efficiency for global enterprises.'
+      summary: 'Specialized in enterprise technology consulting, IT operational restructuringandclient delivery. Analyzed complex client workflows, diagnosed delivery bottlenecksandengineered custom technology solutions to improve operational efficiency for global enterprises.'
     },
     {
       role: 'UX / UI Engineer Intern',
       organization: 'DevRev Cloud',
       period: 'Product Design & Engineering',
       location: 'SaaS Platform Team',
-      summary: 'Focused on customer journey mapping, digital product experience design, and process optimization. Analyzed user friction points, redesigned cross-functional ticket-to-code workflows, and improved platform adoption and user engagement metrics.'
+      summary: 'Focused on customer journey mapping, digital product experience designandprocess optimization. Analyzed user friction points, redesigned cross-functional ticket-to-code workflowsandimproved platform adoption and user engagement metrics.'
     }
   ],
   education: [
     {
-      degree: 'Bachelor of Technology (B.Tech) in Engineering',
-      institution: 'Premier Technical University',
-      year: 'Honors & Technical Distinction'
+      degree: 'Bachelor of Technology (B.Tech) in Computer Science & Engineering',
+      institution: 'Vellore Institute of Technology, Chennai',
+      year: 'June 2019 - Apr 2023'
     },
     {
-      degree: 'Specialized Executive Training in National Digital Infrastructure & Governance',
-      institution: 'Sovereign Institutional Programs',
-      year: 'Government of India'
+      degree: 'Specialized Training in National Digital Infrastructure & Governance',
+      institution: 'Sovereign Institutional Programs, Government of India',
+      year: 'Nov 2023 - Apr 2024'
     }
   ],
   coreCompetencies: [

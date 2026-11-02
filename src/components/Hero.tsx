@@ -30,12 +30,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv, onOpenSchedule }) => {
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-white tracking-tight leading-[1.12] mb-6 [text-wrap:balance]">
-              Solving complex operational bottlenecks across sovereign infrastructure, enterprise IT, and digital products.
+              Solving complex operational bottlenecks across sovereign infrastructure, enterprise ITanddigital products.
             </h1>
 
             {/* Lead Copy */}
             <p className="text-base sm:text-lg text-zinc-400 leading-relaxed font-normal mb-8 max-w-2xl">
-              Technology specialist with experience contributing to public sector digital initiatives, enterprise IT delivery workflows, and SaaS product optimization. Focused on structured problem-solving, data pipelines, and improving system efficiency."
+              Technology specialist with experience contributing to public sector digital initiatives, enterprise IT delivery workflowsandSaaS product optimization. Focused on structured problem-solving, data pipelinesandimproving system efficiency."
             </p>
 
             {/* Dual CTAs & Advisory Focus */}

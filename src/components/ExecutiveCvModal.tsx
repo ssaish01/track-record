@@ -29,7 +29,7 @@ Technology Strategy & Digital Operations Specialist
 Contact: ssaishwarya2021@gmail.com · Portfolio & Advisory Dossier
 
 EXECUTIVE SUMMARY:
-Technology strategy and digital operations specialist with 3.5 years of high-stakes experience spanning apex public sector governance (Cabinet Secretariat), global enterprise IT consulting (TCS), and modern SaaS product optimization (DevRev Cloud). Combines hands-on engineering execution with structured MECE problem-solving to untangle operational bottlenecks and drive measurable outcomes.
+Technology strategy and digital operations specialist with 3.5 years of high-stakes experience spanning apex public sector governance (Cabinet Secretariat), global enterprise IT consulting (TCS)andmodern SaaS product optimization (DevRev Cloud). Combines hands-on engineering execution with structured MECE problem-solving to untangle operational bottlenecks and drive measurable outcomes.
 
 CABINET SECRETARIAT (GOVERNMENT OF INDIA) — STRATEGIC TASKFORCE INITIATIVES (3 YEARS):
 
@@ -60,7 +60,7 @@ CABINET SECRETARIAT (GOVERNMENT OF INDIA) — STRATEGIC TASKFORCE INITIATIVES (3
 5. Public Sector Zero-Trust Infrastructure & Critical Service Isolation Engine
    Timeline: 6 Months
    Focus: Civilian Infrastructure Security & Automated Service Hardening
-   Scope: Engineered automated micro-segmentation policies, Hardware Security Module (HSM) key rotation scripts, and incident containment playbooks for citizen service portals (GSTN, DigiLocker gateways), achieving sub-800ms workload isolation during simulated stress drills.
+   Scope: Engineered automated micro-segmentation policies, Hardware Security Module (HSM) key rotation scriptsandincident containment playbooks for citizen service portals (GSTN, DigiLocker gateways), achieving sub-800ms workload isolation during simulated stress drills.
    Key Methodology: Continuous Compliance Auditing & Automated Playbook Orchestration.
 
 6. Sovereign Edge Computing & Remote District Administration Platform (GovCloud-Mesh)
@@ -72,26 +72,26 @@ CABINET SECRETARIAT (GOVERNMENT OF INDIA) — STRATEGIC TASKFORCE INITIATIVES (3
 7. Apex Digital Policy Framework & National Interoperability Governance
    Timeline: 4 Months
    Focus: Institutional Policy, Open Standards & Anti-Vendor-Lock-In
-   Scope: Technical specialist on the National Interoperability Working Group; analyzed 40 public technology contracts to isolate vendor lock-in risks, and drafted open-API compliance matrices and technical standards adopted across public IT tenders.
+   Scope: Technical specialist on the National Interoperability Working Group; analyzed 40 public technology contracts to isolate vendor lock-in risksanddrafted open-API compliance matrices and technical standards adopted across public IT tenders.
    Key Methodology: MECE Policy Decomposition & Multi-Tier Stakeholder Consensus Alignment.
 
 ENTERPRISE IT & PRODUCT EXPERIENCE:
 
 8. Tata Consultancy Services (TCS) | Systems Engineer (6 Months)
    Focus: Enterprise Technology Consulting, IT Operational Restructuring & Client Delivery
-   Scope: Analyzed client workflows, isolated systemic delivery bottlenecks, and delivered custom technology solutions to improve operational efficiency for global enterprises.
+   Scope: Analyzed client workflows, isolated systemic delivery bottlenecksanddelivered custom technology solutions to improve operational efficiency for global enterprises.
    Key Methodology: Root Cause Incident Tree & Lean Operational Workflow Re-engineering.
    Impact: +32% Service Delivery Velocity, -42% Defect Resolution Time, 99.2% Contract SLA Compliance.
 
 9. DevRev Cloud | UX / UI Engineer Intern (Product Design & Engineering)
    Focus: Customer Journey Mapping, Digital Product Experience Design & Process Optimization
-   Scope: Analyzed user friction points, mapped multi-persona pathways, and redesigned core ticket-linking workflows to drive enterprise platform adoption.
+   Scope: Analyzed user friction points, mapped multi-persona pathwaysandredesigned core ticket-linking workflows to drive enterprise platform adoption.
    Key Methodology: MECE Cognitive Friction Tree & Micro-Interaction Journey Auditing.
    Impact: -55% Click Depth, +40% Workflow Completion Rate, +28% Daily Active Engagement.
 
 EDUCATION:
-• Bachelor of Technology (B.Tech) in Engineering (Honors)
-• Specialized Executive Training in National Digital Infrastructure & Governance (Government of India)`;
+• Bachelor of Technology (B.Tech) in Computer Science & Engineering
+• Specialized Training in National Digital Infrastructure & Governance (Government of India)`;
 
       const blob = new Blob([cvText], { type: 'text/plain' });
       const url = URL.createObjectURL(blob);
@@ -155,7 +155,7 @@ EDUCATION:
               Executive Profile & Strategic Framing
             </h3>
             <p className="text-zinc-300 leading-relaxed font-normal">
-              Strategic technology advisor and operations transformation specialist with proven expertise spanning apex sovereign public sector governance (Cabinet Secretariat, Govt. of India), global enterprise IT consulting (TCS), and high-growth digital product optimization (DevRev Cloud). Expert at structuring ambiguous institutional challenges into MECE workstreams, modernizing mission-critical digital infrastructure, and streamlining cross-functional workflows.
+              Strategic technology advisor and operations transformation specialist with proven expertise spanning apex sovereign public sector governance (Cabinet Secretariat, Govt. of India), global enterprise IT consulting (TCS)andhigh-growth digital product optimization (DevRev Cloud). Expert at structuring ambiguous institutional challenges into MECE workstreams, modernizing mission-critical digital infrastructureandstreamlining cross-functional workflows.
             </p>
           </div>
 
@@ -239,7 +239,7 @@ EDUCATION:
                   Systems Engineer · Enterprise Technology Practice
                 </div>
                 <p className="text-xs text-zinc-400 leading-relaxed mb-3">
-                  Analyzed client workflows, isolated systemic delivery bottlenecks, and delivered custom technology architectures elevating delivery throughput by +32% and reducing defect resolution time by -42%.
+                  Analyzed client workflows, isolated systemic delivery bottlenecksanddelivered custom technology architectures elevating delivery throughput by +32% and reducing defect resolution time by -42%.
                 </p>
                 <div className="text-[11px] font-mono text-emerald-400 font-semibold pt-2 border-t border-white/[0.04]">
                   Impact: +32% Throughput · 99.2% SLA Compliance
